@@ -37,12 +37,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
-        'ENFORCE_SCHEMA': True,  # Optional, ensures schema validation
         'CLIENT': {
             'host': 'localhost',
             'port': 27017,
-            'username': '',  # Optional, add if authentication is required
-            'password': '',  # Optional, add if authentication is required
+            'username': '',
+            'password': '',
         },
     }
 }
