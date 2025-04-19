@@ -35,7 +35,7 @@ ROOT_URLCONF = 'octofit_tracker.urls'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django',
+        'ENGINE': 'djongo',
         'NAME': 'octofit_db',
         'CLIENT': {
             'host': 'localhost',
