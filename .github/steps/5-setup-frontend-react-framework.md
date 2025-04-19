@@ -45,7 +45,7 @@ In this step, we will accomplish the following:
 ### :keyboard: Activity: Update the octofit-tracker frontend React components
 
 > 🪧 **Note:** 
-- Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
+- Make sure to replace ubiquitous-space-chainsaw-9g699p97gr3xxxp with your codespace name.
   - ex. redesigned-spork-g6pj46rr9hpp6x
 - You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
 
@@ -62,7 +62,7 @@ In this step, we will accomplish the following:
 >   - src/components/Teams.js
 >   - src/components/Users.js
 >   - src/components/Workouts.js
-> - In each component replace the fetch url with the codespace url https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev/api/<component> for the Django rest framework backend.
+> - In each component replace the fetch url with the codespace url https://ubiquitous-space-chainsaw-9g699p97gr3xxxp-8000.app.github.dev/api/<component> for the Django rest framework backend.
 > - Make sure to use the correct port and protocol http or https.
 > - Update src/App.js to include the main navigation for all components.
 > - Make sure react-router-dom is used for the navigation menu.
@@ -72,7 +72,7 @@ In this step, we will accomplish the following:
 > ```
 
 > ❕ **Important:**
-- Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
+- Make sure to replace ubiquitous-space-chainsaw-9g699p97gr3xxxp with your codespace name.
   - ex. redesigned-spork-g6pj46rr9hpp6x
 - You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
 

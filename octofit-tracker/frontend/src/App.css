@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Menu */
+.navbar {
+  background-color: #007bff; /* Blue background */
+}
+
+.navbar-brand {
+  color: #ffffff !important; /* White text for the brand */
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff !important; /* White text for links */
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* Yellow on hover */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Blue headings */
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #dee2e6; /* Light border */
+}
+
+.table thead {
+  background-color: #007bff; /* Blue header */
+  color: #ffffff; /* White text */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for striped rows */
+}
+
+/* Buttons */
+.btn {
+  background-color: #007bff; /* Blue buttons */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Cards */
+.card {
+  border: 1px solid #007bff; /* Blue border */
+}
+
+.card-body {
+  background-color: #ffffff; /* White card body */
+}
+
+/* Links */
+a {
+  color: #007bff; /* Blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}

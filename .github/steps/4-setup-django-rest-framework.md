@@ -20,7 +20,7 @@ In this step, we will accomplish the following:
 ### :keyboard: Activity: Setup Django REST Framework, restart the server, and test the API
 
 > 🪧 **Note:** 
-- Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
+- Make sure to replace ubiquitous-space-chainsaw-9g699p97gr3xxxp with your codespace name.
   - ex. redesigned-spork-g6pj46rr9hpp6x
 - You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
 
@@ -30,8 +30,8 @@ In this step, we will accomplish the following:
 >Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's setup codespace for the URL, start the server via VS Code launch.json, and test the API.
 > 
 > 1. Activate the Python virtual environment.
-> 2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the REST API URL endpoints with the codespace URL https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for Django and avoid certificate HTTPS issues.
-> 3. Make sure the Django backend works on [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev and localhost:8000.
+> 2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the REST API URL endpoints with the codespace URL https://ubiquitous-space-chainsaw-9g699p97gr3xxxp-8000.app.github.dev for Django and avoid certificate HTTPS issues.
+> 3. Make sure the Django backend works on ubiquitous-space-chainsaw-9g699p97gr3xxxp-8000.app.github.dev and localhost:8000.
 > 4. Test the API endpoints using curl command.
 > 5. Allow host access to codespace URL and localhost:8000.
 >
@@ -47,7 +47,7 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 <img src="https://github.com/user-attachments/assets/baef4dfe-0751-45cb-9e16-8ff26ba9ff58" width=30% height=30%>
 
 > ❕ **Important:**
-- Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
+- Make sure to replace ubiquitous-space-chainsaw-9g699p97gr3xxxp with your codespace name.
 - ex. redesigned-spork-g6pj46rr9hpp6x
 - You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
 
