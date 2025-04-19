@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-unique-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ubiquitous-space-chainsaw-9g699p97gr3xxxp-8000.app.github.dev']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

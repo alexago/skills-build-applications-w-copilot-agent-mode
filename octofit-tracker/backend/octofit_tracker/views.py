@@ -6,12 +6,13 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def api_root(request, format=None):
+    base_url = 'https://ubiquitous-space-chainsaw-9g699p97gr3xxxp-8000.app.github.dev/'
     return Response({
-        'users': 'api/users/',
-        'teams': 'api/teams/',
-        'activities': 'api/activities/',
-        'leaderboard': 'api/leaderboard/',
-        'workouts': 'api/workouts/',
+        'users': base_url + 'api/users/?format=api',
+        'teams': base_url + 'api/teams/?format=api',
+        'activities': base_url + 'api/activities/?format=api',
+        'leaderboard': base_url + 'api/leaderboard/?format=api',
+        'workouts': base_url + 'api/workouts/?format=api',
     })
 
 class UserViewSet(viewsets.ModelViewSet):
