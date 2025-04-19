@@ -18,7 +18,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'octofit_tracker',
-    
 ]
 
 MIDDLEWARE = [
@@ -38,8 +37,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
-        'HOST': 'localhost',
-        'PORT': 27017,
+        'ENFORCE_SCHEMA': True,  # Optional, ensures schema validation
+        'CLIENT': {
+            'host': 'localhost',
+            'port': 27017,
+        },
     }
 }
 
